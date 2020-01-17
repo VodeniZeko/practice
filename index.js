@@ -20,8 +20,8 @@ function userCard(obj) {
   //textContent
 
   divImage.setAttribute("src", `https://robohash.org/${obj.name}?size=100x100`);
-  name.textContent = `name: ${obj.name}`;
-  username.textContent = `username: ${obj.username}`;
+  name.textContent = `real name: ${obj.name}`;
+  username.textContent = `they call me: ${obj.username}`;
   email.textContent = `email: ${obj.email}`;
   catchPhrase.textContent = `my thing is: ${obj.company.catchPhrase}`;
   geo.textContent = `geolocation: \u25BC`;
